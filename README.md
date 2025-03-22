@@ -1,17 +1,17 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+A simple app to give daily reminders of tasks and deadlines.
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+uses of java script to allow the page to be interactive and very user friendly. Easily finishing/deleting tasks. Starting new ones and everyhthing in between.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+javascript, html, css, OOP
 
 ## Deployment
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+https://glen-wat.github.io/se_project_todo-app/
