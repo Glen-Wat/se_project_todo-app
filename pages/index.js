@@ -37,7 +37,6 @@ addTodoForm.addEventListener("submit", (evt) => {
   const name = evt.target.name.value;
   const dateInput = evt.target.date.value;
 
-  // Create a date object and adjust for timezone
   const date = new Date(dateInput);
   date.setMinutes(date.getMinutes() + date.getTimezoneOffset());
 
@@ -53,5 +52,5 @@ initialTodos.forEach((item) => {
   todosList.append(todo);
 });
 
-const newTodoValidator = new FormValidator(validationConfig, addTodoForm);
-newTodoValidator.enableValidation();
+const newTodoFormValidator = new FormValidator(validationConfig, addTodoForm);
+newTodoFormValidator.enableValidation();
